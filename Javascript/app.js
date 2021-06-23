@@ -1,7 +1,9 @@
-alert(10 + 5);
+var alertString;
+alertString = addString("WebCamp");
 
-alert(12 - 7);
+alert(alertString);
 
-alert(4 * 10);
-
-alert(30 / 5);
+function addString(strA) {
+  var addStr = "Hello" + strA;
+  return addStr;
+}
